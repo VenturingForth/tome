@@ -3,6 +3,11 @@ using Infrastructure;
 using Presentation;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Host.ConfigureLogging(logging =>
+{
+    logging.ClearProviders();
+    logging.AddConsole();
+});
 
 builder.Services.AddOpenApi();
 
