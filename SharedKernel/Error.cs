@@ -1,5 +1,6 @@
 ﻿namespace SharedKernel;
 
-public class Class1
+public class Error
 {
+    
 }
