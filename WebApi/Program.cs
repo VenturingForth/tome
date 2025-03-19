@@ -17,7 +17,7 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddMediatR(
     cfg => cfg
-        .RegisterServicesFromAssembly(typeof(Application.AssemblyReference).Assembly));
+        .RegisterServicesFromAssembly(Application.AssemblyReference.Assembly));
 
 builder.Services
     .AddApplication()
