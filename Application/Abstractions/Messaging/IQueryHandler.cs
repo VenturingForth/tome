@@ -1,5 +1,11 @@
-﻿namespace Application.Abstractions.Messaging;
+﻿using MediatR;
+using SharedKernel;
 
-public interface IQueryHandler
+namespace Application.Abstractions.Messaging;
+
+public interface IQueryHandler<TQuery, TResponse>
+    : IRequestHandler<TQuery, Result<TResponse>>
+    where TQuery : IQuery<TResponse>
 {
+    
 }
