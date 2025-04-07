@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <RootNamespace>WebApi</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -22,9 +23,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Application\Application.csproj" />
-      <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
-      <ProjectReference Include="..\Presentation\Presentation.csproj" />
+      <ProjectReference Include="..\Tome.Application\Tome.Application.csproj" />
+      <ProjectReference Include="..\Tome.Infrastructure\Tome.Infrastructure.csproj" />
+      <ProjectReference Include="..\Tome.Presentation\Tome.Presentation.csproj" />
     </ItemGroup>
 
 </Project>
