@@ -2,17 +2,17 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E98F2ED1-9C8A-4DB5-81C9-6F6ED32F98D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{D6FF8545-8AA0-434D-89D8-A34B14EFF67D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tome.Domain", "Tome.Domain\Tome.Domain.csproj", "{D6FF8545-8AA0-434D-89D8-A34B14EFF67D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{385915CF-E191-4804-90CA-C1FB7099CB32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tome.Application", "Tome.Application\Tome.Application.csproj", "{385915CF-E191-4804-90CA-C1FB7099CB32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{8B3051E4-B394-485C-9418-A787AF24C80D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tome.Infrastructure", "Tome.Infrastructure\Tome.Infrastructure.csproj", "{8B3051E4-B394-485C-9418-A787AF24C80D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{E56C12AA-01CF-4F68-A1DF-14787088DFD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tome.Presentation", "Tome.Presentation\Tome.Presentation.csproj", "{E56C12AA-01CF-4F68-A1DF-14787088DFD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{916A1946-D6ED-41E4-B964-464F0F40783B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tome.WebApi", "Tome.WebApi\Tome.WebApi.csproj", "{916A1946-D6ED-41E4-B964-464F0F40783B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{CE2F44FA-2541-48FA-B951-13467F956DFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tome.SharedKernel", "Tome.SharedKernel\Tome.SharedKernel.csproj", "{CE2F44FA-2541-48FA-B951-13467F956DFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
